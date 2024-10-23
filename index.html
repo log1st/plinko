@@ -5,17 +5,18 @@
     <link rel="icon" type="image/svg+xml" href="logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PLINKO</title>
-    <script type="module" crossorigin src="assets/index-Cy_lMOJK.js"></script>
-    <link rel="stylesheet" crossorigin href="assets/index-CnZ-WrPp.css">
+    <script type="module" crossorigin src="assets/index-BjDlq4ur.js"></script>
+    <link rel="stylesheet" crossorigin href="assets/index-cDZ0Ze0k.css">
   </head>
   <body>
     <div class="loader-wrapper _active">
       <div class="loader"></div>
     </div>
     <header class="header">
-      <div class="logo">
-        <img src="logo.svg" alt="Casino Logo">
-      </div>
+      <picture class="logo">
+        <source src="logo.webp" srcset="logo.webp" type="image/webp" />
+        <img src="logo.png" alt="PLINKO PRIZE">
+      </picture>
     </header>
     <main class="main">
       <div class="game">
@@ -33,9 +34,12 @@
       <div class="modal" id="modal">
         <h3 class="modal-title">Congratulations</h3>
         <p class="text">You have won!</p>
-        <p class="text modal-prize-name" id="prizeName">{{Prize Name}}</p>
-        <img id="prizeImage" class="modal-image" src="coins.svg" alt="Prize Icon">
-        <a href="#" class="button button-prize">Pick up the prize</a>
+        <p class="text modal-prize-name" id="prizeName">bonus 150% on first deposit</p>
+        <picture class="modal-picture">
+          <source src="prize.webp" srcset="prize.webp" type="image/webp" />
+          <img src="prize.png" alt="PLINKO PRIZE">
+        </picture>
+        <a href="https://whiterabbit543.casino/adv/?btag=2173470_l337539_nId3825" class="button button-prize" id="redirect-link">Pick up the prize</a>
       </div>
     </section>
     <div class="bg"></div>
